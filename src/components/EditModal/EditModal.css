@@ -1,0 +1,32 @@
+.main-modal{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.inner-modal{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(247, 242, 242);
+    margin: 150px auto;
+    text-align: center;
+    border-radius: 15px;
+}
+.inner-modal button{
+    background-color: rgba(87, 77, 77, 0.801);
+    cursor: pointer;
+ 
+}
+.close{
+    text-align: end;
+    margin-right: 10px;
+}
+.close button{
+    background-color: rgba(87, 77, 77, 0.801);
+    cursor: pointer;
+  border-radius: 5px;
+  border: none
+}
